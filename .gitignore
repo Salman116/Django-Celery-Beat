@@ -1,0 +1,76 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyo
+
+# Virtual environment
+env/
+venv/
+ENV/
+VENV/
+env.bak/
+venv.bak/
+
+# Django-specific
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3  # Prevent the SQLite database file from being tracked
+instance/
+.media
+.static
+
+# Migrations (exclude all migration files)
+**/migrations/
+**/migrations/*
+
+# Ignore local settings
+local_settings.py
+
+# Static and media files
+static/
+media/
+
+# Ignore all local environment files
+.env
+*.env
+
+# IDE-specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Docker
+docker-compose.override.yml
+Dockerfile
+
+# JetBrains
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+
+# Test-related
+.pytest_cache/
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+
+# CI/CD
+build/
+dist/
